@@ -1,0 +1,10 @@
+/* 
+  ContentView.strings
+  webhook-test
+
+  Created by Jason Rich Darmawan Onggo Putra on 11/07/23.
+  
+*/
+
+"helloWorld" = "Hello, world!";
+"bananasOwner" = "Those %d bananas belong to %@.";

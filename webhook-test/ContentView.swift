@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    private(set) var text: String = "Hello, world!"
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text(L10n.ContentView.helloWorld)
+                .foregroundColor(Asset.textPrimary.swiftUIColor)
+            Text(L10n.ContentView.bananasOwner(5, "Jake"))
+            Text(L10n.BookView.bookName)
         }
         .padding()
     }

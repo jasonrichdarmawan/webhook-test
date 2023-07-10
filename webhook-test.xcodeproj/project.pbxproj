@@ -14,6 +14,10 @@
 		9666D4072A5C629E0054C0A4 /* webhook_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666D4062A5C629E0054C0A4 /* webhook_testTests.swift */; };
 		9666D4112A5C629E0054C0A4 /* webhook_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666D4102A5C629E0054C0A4 /* webhook_testUITests.swift */; };
 		9666D4132A5C629E0054C0A4 /* webhook_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666D4122A5C629E0054C0A4 /* webhook_testUITestsLaunchTests.swift */; };
+		9666D4312A5C6A8C0054C0A4 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666D42F2A5C6A8C0054C0A4 /* Strings+Generated.swift */; };
+		9666D4322A5C6A8C0054C0A4 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666D4302A5C6A8C0054C0A4 /* XCAssets+Generated.swift */; };
+		9666D4502A5C7C8F0054C0A4 /* ContentView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9666D4522A5C7C8F0054C0A4 /* ContentView.strings */; };
+		9666D4572A5C7E2D0054C0A4 /* BookView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9666D4592A5C7E2D0054C0A4 /* BookView.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,15 @@
 		9666D40C2A5C629E0054C0A4 /* webhook-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webhook-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9666D4102A5C629E0054C0A4 /* webhook_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webhook_testUITests.swift; sourceTree = "<group>"; };
 		9666D4122A5C629E0054C0A4 /* webhook_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webhook_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9666D4202A5C65BF0054C0A4 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		9666D4222A5C67190054C0A4 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		9666D42F2A5C6A8C0054C0A4 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		9666D4302A5C6A8C0054C0A4 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		9666D4472A5C7B360054C0A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9666D4512A5C7C8F0054C0A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ContentView.strings; sourceTree = "<group>"; };
+		9666D4532A5C7C920054C0A4 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/ContentView.strings; sourceTree = "<group>"; };
+		9666D4582A5C7E2D0054C0A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BookView.strings; sourceTree = "<group>"; };
+		9666D45A2A5C7E2E0054C0A4 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/BookView.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,8 @@
 		9666D3E92A5C629D0054C0A4 = {
 			isa = PBXGroup;
 			children = (
+				9666D4472A5C7B360054C0A4 /* README.md */,
+				9666D4202A5C65BF0054C0A4 /* .swiftlint.yml */,
 				9666D3F42A5C629D0054C0A4 /* webhook-test */,
 				9666D4052A5C629E0054C0A4 /* webhook-testTests */,
 				9666D40F2A5C629E0054C0A4 /* webhook-testUITests */,
@@ -94,9 +109,10 @@
 		9666D3F42A5C629D0054C0A4 /* webhook-test */ = {
 			isa = PBXGroup;
 			children = (
+				9666D4232A5C68460054C0A4 /* Resources */,
+				9666D4222A5C67190054C0A4 /* swiftgen.yml */,
 				9666D3F52A5C629D0054C0A4 /* webhook_testApp.swift */,
 				9666D3F72A5C629D0054C0A4 /* ContentView.swift */,
-				9666D3F92A5C629E0054C0A4 /* Assets.xcassets */,
 				9666D3FB2A5C629E0054C0A4 /* Preview Content */,
 			);
 			path = "webhook-test";
@@ -127,6 +143,82 @@
 			path = "webhook-testUITests";
 			sourceTree = "<group>";
 		};
+		9666D4232A5C68460054C0A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9666D4602A5C7E960054C0A4 /* Core */,
+				9666D45D2A5C7E7C0054C0A4 /* Features */,
+				9666D42F2A5C6A8C0054C0A4 /* Strings+Generated.swift */,
+				9666D4302A5C6A8C0054C0A4 /* XCAssets+Generated.swift */,
+				9666D3F92A5C629E0054C0A4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9666D45B2A5C7E6F0054C0A4 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				9666D45C2A5C7E760054C0A4 /* Presentation */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		9666D45C2A5C7E760054C0A4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9666D45E2A5C7E860054C0A4 /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9666D45D2A5C7E7C0054C0A4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9666D45B2A5C7E6F0054C0A4 /* Book */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9666D45E2A5C7E860054C0A4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9666D4592A5C7E2D0054C0A4 /* BookView.strings */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		9666D4602A5C7E960054C0A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9666D4612A5C7E9B0054C0A4 /* Content */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9666D4612A5C7E9B0054C0A4 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				9666D4622A5C7ED40054C0A4 /* Presentation */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		9666D4622A5C7ED40054C0A4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9666D4632A5C7ED90054C0A4 /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9666D4632A5C7ED90054C0A4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9666D4522A5C7C8F0054C0A4 /* ContentView.strings */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +229,7 @@
 				9666D3EE2A5C629D0054C0A4 /* Sources */,
 				9666D3EF2A5C629D0054C0A4 /* Frameworks */,
 				9666D3F02A5C629D0054C0A4 /* Resources */,
+				9666D41F2A5C63D80054C0A4 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -213,6 +306,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 9666D3E92A5C629D0054C0A4;
 			productRefGroup = 9666D3F32A5C629D0054C0A4 /* Products */;
@@ -231,7 +325,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9666D4502A5C7C8F0054C0A4 /* ContentView.strings in Resources */,
 				9666D3FD2A5C629E0054C0A4 /* Preview Assets.xcassets in Resources */,
+				9666D4572A5C7E2D0054C0A4 /* BookView.strings in Resources */,
 				9666D3FA2A5C629E0054C0A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +348,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9666D41F2A5C63D80054C0A4 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9666D3EE2A5C629D0054C0A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +377,8 @@
 			files = (
 				9666D3F82A5C629D0054C0A4 /* ContentView.swift in Sources */,
 				9666D3F62A5C629D0054C0A4 /* webhook_testApp.swift in Sources */,
+				9666D4312A5C6A8C0054C0A4 /* Strings+Generated.swift in Sources */,
+				9666D4322A5C6A8C0054C0A4 /* XCAssets+Generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +413,27 @@
 			targetProxy = 9666D40D2A5C629E0054C0A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9666D4522A5C7C8F0054C0A4 /* ContentView.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9666D4512A5C7C8F0054C0A4 /* en */,
+				9666D4532A5C7C920054C0A4 /* id */,
+			);
+			name = ContentView.strings;
+			sourceTree = "<group>";
+		};
+		9666D4592A5C7E2D0054C0A4 /* BookView.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9666D4582A5C7E2D0054C0A4 /* en */,
+				9666D45A2A5C7E2E0054C0A4 /* id */,
+			);
+			name = BookView.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9666D4142A5C629E0054C0A4 /* Debug */ = {

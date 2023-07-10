@@ -1,0 +1,7 @@
+# rule identifiers turned on by default to exclude from running
+disabled_rules:
+   - type_name # due to project name, webhook_test
+   - blanket_disable_command
+
+line_length:
+  ignores_comments: true
